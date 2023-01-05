@@ -1,0 +1,474 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/* header */
+
+header {
+    width: 100%;
+    height: 750px;
+    background-image: url(./images/Fundocapa.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid #FAC128 5px;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 178px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom: double #FAC128 15px;
+    z-index: 5;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 90px;
+}
+
+.menuheader {
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-top: 45px;
+    font-size: 1.4rem;
+    margin-right: 50px;
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+#botao {
+    background-color: rgba(37, 211, 102, 1);
+    border: solid 1px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* apresentação */
+
+#description {
+    background-image: url(./images/fundo2.png);
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    border-bottom: solid #FAC128 8px;
+}
+
+.description_content {
+    display: inline-block;
+    width: 800px;
+    height: 470px;
+    border: solid 5px #FAC128;
+    border-radius: 20px;
+    font-size: 1.7rem;
+    margin-top: 45px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+}
+
+#fotojuntos {
+    border: solid 5px #FAC128;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 40px;
+    float: left;
+    width: 530px;
+}
+
+p {
+    display: inline;
+}
+
+
+/* produtos */
+
+.someproducts {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    display: inline;
+    font-size: 4rem;
+    margin-left: 400px;
+    top: 30px;
+    position: relative;
+}
+
+.pao {
+    width: 500px;
+    border: solid #FAC128 5px;
+    border-radius: 25%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(231, 197, 127, 0.8);
+    box-sizing: border-box;
+    position: relative;
+    left: 200px;
+    top: 70px;
+}
+
+.pao1 {
+    width: 500px;
+    border: solid #FAC128 5px;
+    border-radius: 25%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(231, 197, 127, 0.8);
+    box-sizing: border-box;
+    position: relative;
+    top: -450px;
+    left: 800px;
+}
+
+.fugde {
+    width: 500px;
+    border: solid #FAC128 5px;
+    border-radius: 25%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(231, 197, 127, 0.8);
+    box-sizing: border-box;
+    position: relative;
+    left: 200px;
+    top: -400px;
+    overflow: hidden 10px;
+}
+
+.focaccia {
+    width: 500px;
+    border: solid #FAC128 5px;
+    border-radius: 25%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(231, 197, 127, 0.8);
+    box-sizing: border-box;
+    position: relative;
+    top: -913px;
+    left: 800px;
+    overflow: hidden 10px;
+}
+
+.products {
+    height: 1300px;
+    width: 100%;
+    background-image: url(./images/fundo2.png);
+    background-attachment: fixed;
+    border-bottom: solid #FAC128 8px;
+    overflow: hidden 10px;
+}
+
+
+/* cardapio */
+
+#conteudo {
+    height: 900px;
+}
+
+#conteudo-left {
+    width: 49%;
+    height: 900px;
+    float: left;
+    background-image: url(./images/fundo2.png);
+    background-attachment: fixed;
+    border-right: solid #FAC128 7px;
+}
+
+.titlecardapionovo {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    display: inline;
+    font-size: 3rem;
+    margin-left: 150px;
+    top: 30px;
+    position: relative;
+}
+
+.fotocardapionovo {
+    border: solid 5px #FAC128;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 70px;
+    float: left;
+    width: 530px;
+}
+
+
+/* depoimentos */
+
+#conteudo-right {
+    width: 50%;
+    height: 900px;
+    float: left;
+    background-image: url(./images/fundo2.png);
+    background-attachment: fixed;
+    border-left: solid #FAC128 7px;
+}
+
+.dep {
+    width: 700px;
+    margin-top: 55px;
+    margin-left: 40px;
+    border: solid #FAC128 5px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.titledep {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    display: inline;
+    font-size: 3rem;
+    margin-left: 80px;
+    top: 30px;
+    position: relative;
+}
+
+
+/* footer */
+
+
+/* mapa */
+
+.mapresponsive {
+    position: relative;
+    height: 0;
+}
+
+.mapresponsive iframe {
+    left: 40px;
+    top: 20px;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+#footer {
+    height: 350px;
+    width: 100%;
+    background-image: url(./images/fundofooter.jpg);
+    background-size: cover;
+    border-top: solid 8px #FAC128;
+}
+
+
+/* lista direita */
+
+.contact {
+    float: right;
+    list-style: none;
+}
+
+.lista {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 90px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.listabaixo {
+    margin-top: 75px;
+}
+
+
+/* links */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #FAC128;
+    text-shadow: 10px 10px 15px;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 550px) {
+    /* cabeçalho */
+    .logo {
+        display: inline;
+        float: left;
+        position: relative;
+        right: 5px;
+    }
+    .container {
+        margin-top: 10px;
+        width: 450px;
+        height: 540px;
+        position: static;
+    }
+    .menuheader {
+        display: block;
+        float: left;
+        position: relative;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    header {
+        background-image: none;
+        height: 540px;
+    }
+    /* quem somos  */
+    #description {
+        width: 450px;
+        height: 900px;
+    }
+    #fotojuntos {
+        margin-top: 30px;
+        margin-left: 90px;
+        width: 250px;
+    }
+    .description_content {
+        display: inline-block;
+        width: 300px;
+        height: 490px;
+        font-size: 1.1rem;
+        margin-top: 45px;
+        margin-left: 50px;
+        padding: 20px;
+    }
+    /* produtos */
+    .someproducts {
+        background-color: rgba(255, 255, 255, 0.8);
+        font-weight: bold;
+        display: inline-block;
+        font-size: 2rem;
+        margin-left: 25px;
+        top: 30px;
+        position: relative;
+    }
+    .products {
+        height: 580px;
+        width: 450px;
+        background-image: url(./images/fundo2.png);
+        background-attachment: fixed;
+        border-bottom: solid #FAC128 8px;
+        /* overflow: hidden 10px; */
+    }
+    .pao {
+        width: 200px;
+        padding: 0px;
+        margin: 10px;
+        box-sizing: border-box;
+        position: relative;
+        left: 0px;
+        top: 70px;
+    }
+    .pao1 {
+        width: 200px;
+        padding: 0px;
+        margin: 10px;
+        box-sizing: border-box;
+        position: relative;
+        top: -145px;
+        left: 220px;
+    }
+    .fugde {
+        width: 200px;
+        padding: 0px;
+        margin: 10px;
+        box-sizing: border-box;
+        position: relative;
+        left: 0px;
+        top: -150px;
+        overflow: hidden 10px;
+    }
+    .focaccia {
+        width: 200px;
+        padding: 0px;
+        margin: 20px;
+        box-sizing: border-box;
+        position: relative;
+        top: -370px;
+        left: 210px;
+        overflow: hidden 10px;
+    }
+    /* cardapio */
+    #conteudo {
+        height: 1100px;
+    }
+    .titlecardapionovo {
+        display: inline;
+        font-size: 2rem;
+        margin-left: 65px;
+        top: 20px;
+        position: relative;
+        border-left: none;
+    }
+    #conteudo-left {
+        width: 450px;
+        height: 600px;
+        border: none;
+    }
+    .fotocardapionovo {
+        border: solid 5px #FAC128;
+        border-radius: 20px;
+        margin-left: 45px;
+        margin-top: 70px;
+        float: left;
+        width: 350px;
+    }
+    #conteudo-right {
+        width: 450px;
+        height: 500px;
+        float: none;
+        display: block;
+        border: none;
+    }
+    .dep {
+        width: 400px;
+        margin-top: 25px;
+        margin-left: 25px;
+        border: solid #FAC128 5px;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    .titledep {
+        background-color: rgba(255, 255, 255, 0.8);
+        font-weight: bold;
+        display: inline;
+        font-size: 1.8rem;
+        margin-left: 35px;
+        top: 0px;
+        position: relative;
+    }
+    /* footer */
+    .mapresponsive iframe {
+        left: 40px;
+        top: 20px;
+        height: 100px;
+        width: 300px;
+    }
+    .lista {
+        font-size: 1rem;
+    }
+    .listabaixo {
+        margin-top: 120px;
+        margin-left: 30px;
+    }
+    #footer {
+        width: 450px;
+    }
+}
